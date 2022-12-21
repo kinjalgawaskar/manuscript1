@@ -63,9 +63,9 @@ body {
 
   .layer {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 25%;
+    top: 0; background-image: url(https://raw.githubusercontent.com/kinjalgawaskar/manuscript1/3ada8c8231e4615288c0b2fde3585e4b7c744b71/konstantin.png);
+    left: 0; 
+    width: 45%;
     height: 100%;
   }
   
