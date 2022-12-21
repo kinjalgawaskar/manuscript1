@@ -22,8 +22,8 @@
    }
    
   h2{
-    font-size:3vw; font-family: 'Familjen Grotesk', monospace; float: left; background-color: rgb(255, 255, 255); width: 100%;
-    color: #000000; letter-spacing: 1px; word-spacing: 10px; padding-left: 25%; margin-bottom: 75px;" 
+    font-size:3vw; font-family: 'Unbounded', cursive; float: left; background-color: rgb(255, 255, 255); width: 100%;
+    color: #8dbaf8; letter-spacing: 1px; word-spacing: 10px; padding-left: 30%; margin-bottom: 75px;" 
   }
   
   @media (max-width:700px) {
@@ -49,33 +49,22 @@
            padding-top: 175px; 
        }}
   
-        .methodimage {
-          margin-top: -1em;
+        .image {
+          margin-top: -4em;
           float: right; width: 45%;
           padding: 65px; padding-right: 90px;
         }  
         
         @media (max-width:700px) {
-          .methodimage {
+          .image {
             margin-left: 5px; padding-left: 125px; padding-right: 0px;
-            width: 124%; margin-top: -2em; margin-right: 15px; padding-bottom: 30px;
+            width: 124%; margin-top: -2em; padding-bottom: 30px;
           }   
          }
-  
-         .methodimage{
-          transition: 1s ease;
-          }
-          
-          .methodimage img:hover{
-          -webkit-transform: rotateZ(-10deg);
-          -ms-transform: rotateZ(-10deg);
-          transform: rotateZ(-10deg);
-          transition: 1s ease;
-          }
         
       blockquote{
-        color: #b0b0b0; font-family: 'Source Code Pro', monospace; font-size: 16px;
-        line-height: 1.6; width: 70%; background-color: #000000; padding-left: 50px;
+        color: #000000; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 16px;
+        line-height: 1.6; width: 70%; background-color: #ffffff; padding-left: 50px;
         padding-right: 60px ; letter-spacing: -1px ;
     }
   
@@ -91,7 +80,7 @@
     }}
   
     .text{
-      color: #000000; font-family: 'Source Code Pro', monospace; font-size: 16px; float: left;
+      color: #000000; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 16px; float: left;
       line-height: 1.6; width: 100%; background-color: #ffffff; padding-left: 20%; padding-right:20%
       ; letter-spacing: -1px ; padding-top: 5%; padding-bottom: 5%; 
   }
@@ -118,47 +107,16 @@
   
    .button {
     left: 0; float: right;
-    bottom: 0; font-family:'Source Code Pro', monospace ; 
-    width: 100%; font-size: 15px; background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255); padding-top: 15px; padding-bottom: 15px;
+    bottom: 0; font-family:'Unbounded', cursive;
+    width: 100%; font-size: 55px; background-color: rgb(255, 255, 255);
+    color: #000000; padding-top: 15px; padding-bottom: 15px;
     text-align: center;
   }
-  
-    .para1 {
-      background-color: #ffffff; color: blue; font-size: 55px; float: left;
-      font-family:'Familjen Grotesk' ; padding-left: 30%; padding-right: 30%;
-      padding-bottom: 0px; padding-top: 10px; width: 100%;
-     }
-     @media screen and (max-width: 700px) {
-      .para1 {
-         font-size: 25.5px; float: left; padding-left: 60px;padding-right: 62px;
-    }}
-  
-   .para2 {
-    background-color: #ffffff; padding-left: 30%; font-size: 35px;
-    color: rgb(160, 160, 160); padding-bottom: 80px;width: 100%; float: left;
-  font-family:'Source Code Pro', monospace ; padding-right: 30%; padding-top: 31px;
-   }
-  
-   @media screen and (max-width: 700px) {
-    .para2 {
-      width: 100%; font-size: 20px; padding-top: 25px; padding-bottom: 35px;
-    }}
-  
-    .para3 {
-      background-color: #ffffff; color: blue; font-size: 55px; float: left;
-      font-family:'Familjen Grotesk' ; padding-left: 30%; padding-right: 30%;
-      padding-bottom: 60px; padding-top: 0px; width: 100%;
-     }
-     @media screen and (max-width: 700px) {
-      .para3 {
-         font-size: 40px; float: left; padding-left: 40px;padding-right: 40px;
-    }}
-  
+   
     .para4 {
-      background-color: #ffffff; color: blue; font-size: 55px; float: left;
-      font-family:'Familjen Grotesk' ; padding-left: 30%; padding-right: 30%;
-      padding-bottom: 60px; padding-top: 0px; width: 100%;
+      background-color: #8dbaf8; color: rgb(255, 255, 255); font-size: 35px; float: left; word-spacing: 6px;
+      font-family:'Unbounded', cursive; ; padding-left: 30px; padding-right: 10px; padding-top: 30px; margin-bottom: 30px;
+      padding-bottom: 30px; width: 100%;
      }
      @media screen and (max-width: 700px) {
       .para4 {
