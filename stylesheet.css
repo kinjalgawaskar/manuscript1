@@ -108,8 +108,8 @@
    .button {
     left: 0; float: right;
     bottom: 0; font-family:'Unbounded', cursive;
-    width: 100%; font-size: 55px; background-color: rgb(255, 255, 255);
-    color: #000000; padding-top: 15px; padding-bottom: 15px;
+    width: 100%; font-size: 65px; background-color: rgb(255, 255, 255); 
+    color: #000000; padding-top: 3px; padding-bottom: 15px; margin-bottom: 30px;
     text-align: center;
   }
    
