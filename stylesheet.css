@@ -1,186 +1,168 @@
-
-*,
-*::before,
-*::after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -o-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-html,
-body,
-div {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font-family: 'Open Sans', sans-serif;
-}
-body {
-    background-color: #e5ecef;
-    background-image: linear-gradient( to top right, #bbc2c5, #b8bfc2, #e5ecef 60%);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+.body {
+    background-position: 0 0, center; width: 100%;
+    background-repeat: no-repeat; background-color: black;
+    background-attachment: fixed;}
     background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
   }
   
-  main{
-    min-height: 100%;
-    margin-bottom: -60px; 
+  html {
+    scroll-behavior: smooth;
   }
   
-  main:after{
-    content: "";
-    display: block;
-  }
-  .quote-card {
-    width: 100%;
-    height: 900px;
-    background-color: #fffcf3;
-    margin: auto;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+  h1{
+    font-family:'Unbounded', cursive;
+    ; background-color: rgb(255, 255, 255);
+    font-size:7vw; float: left; margin-bottom: -1px; margin-left: 111px;
   }
   
-  .card-navigation {
-    float: left;
+  @media (max-width:700px) {
+    h1 {
+      width: 100%;padding-left: 11%; float: right; margin-left: 0px; margin-right: 0px;
+    }   
+   }
+   
+  h2{
+    font-size:3vw; font-family: 'Familjen Grotesk', monospace; float: left; background-color: rgb(255, 255, 255); width: 100%;
+    color: #000000; letter-spacing: 1px; word-spacing: 10px; padding-left: 25%; margin-bottom: 75px;" 
+  }
+  
+  @media (max-width:700px) {
+    h2 {
+      padding-right: 10%; font-size: 4vw; padding-left: 50px; padding-right: 35px;
+      margin-bottom: 0px;
+    }   
+   }
+      
+      p{
+        font-family: 'Source Code Pro', monospace; font-size: 16px; float: left;
+        line-height: 1.6; padding-left: 25px; padding-right: 25px; background-color: black;
+        color:rgb(182, 182, 182); letter-spacing: -1px; float: left; padding-bottom: 25px;
+      } 
+  
+      @media screen and (max-width:700px) {
+        p {
+           padding-top: 175px; 
+       }}
+  
+       @media screen (max-width: 2000px) and (min-width: 701px) {
+        p {
+           padding-top: 175px; 
+       }}
+  
+        .methodimage {
+          margin-top: -1em;
+          float: right; width: 45%;
+          padding: 65px; padding-right: 90px;
+        }  
+        
+        @media (max-width:700px) {
+          .methodimage {
+            margin-left: 5px; padding-left: 125px; padding-right: 0px;
+            width: 124%; margin-top: -2em; margin-right: 15px; padding-bottom: 30px;
+          }   
+         }
+  
+         .methodimage{
+          transition: 1s ease;
+          }
+          
+          .methodimage img:hover{
+          -webkit-transform: rotateZ(-10deg);
+          -ms-transform: rotateZ(-10deg);
+          transform: rotateZ(-10deg);
+          transition: 1s ease;
+          }
+        
+      blockquote{
+        color: #b0b0b0; font-family: 'Source Code Pro', monospace; font-size: 16px;
+        line-height: 1.6; width: 70%; background-color: #000000; padding-left: 50px;
+        padding-right: 60px ; letter-spacing: -1px ;
+    }
+  
+    @media screen and (max-width: 700px) {
+      blockquote {
+        width: 100%; padding-left: 33px; margin-top: 5em; padding-right: 30px; margin-left: 0px;
+        margin-left: 0px;
+    }}
+  
+    @media screen and (max-width: 700px) {
+      .block-line {
+        height: 56%;
+    }}
+  
+    .text{
+      color: #000000; font-family: 'Source Code Pro', monospace; font-size: 16px; float: left;
+      line-height: 1.6; width: 100%; background-color: #ffffff; padding-left: 20%; padding-right:20%
+      ; letter-spacing: -1px ; padding-top: 5%; padding-bottom: 5%; 
+  }
+  
+  @media screen and (max-width: 700px) {
+    .text {
+      width: 100%; padding-left: 35px; padding-right: 35px;
+  }}
+  
+    .footer {
+      left: 0; 
+      bottom: 0;
+      width: auto;
+      background-color: rgb(255, 255, 255);
+      color: white;
+      text-align: center;
+   }
+  
+   @media screen and (max-width: 700px) {
+    .footer {
+      width: 100%; font-size: 20px; padding-left: 0px; padding-right: 0px; margin-left: 0px;
+      margin-right: 0px; position: -ms-page;
+  }}
+  
+   .button {
+    left: 0; float: right;
+    bottom: 0; font-family:'Source Code Pro', monospace ; 
+    width: 100%; font-size: 15px; background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255); padding-top: 15px; padding-bottom: 15px;
     text-align: center;
-    width: 25%;
-    height: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: center;
-  }
-
-  .layer {
-    position: absolute;
-    top: 0; background-image: url(https://raw.githubusercontent.com/kinjalgawaskar/manuscript1/197414549c485143eef48c5f430d36944c3a3b26/konstantin.png);
-    left: 0; 
-    width: 35%;
-    height: 100%;
   }
   
-  .quote-arrows {
-    position: absolute;
-    bottom: 25px;
-    left: 50px;
-    content: "";
-    display: block;
-    height: 14px;
-    width: 14px;
-    cursor: pointer;
-    transition: 0.5s;
-  }
-
-  quote-arrows.arrow-left,
-.quote-arrows.arrow-left:visited {
-  border-bottom: 2px solid rgb(0, 0, 0);
-  border-left: 2px solid rgb(0, 0, 0);
-  float: left;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-.quote-arrows.arrow-right,
-.quote-arrows.arrow-right:visited {
-  border-bottom: 2px solid rgb(0, 0, 0);
-  border-left: 2px solid rgb(0, 0, 0);
-  float: right;
-  -webkit-transform: rotate(-135deg);
-  -ms-transform: rotate(-135deg);
-  transform: rotate(-135deg);
-  margin-left: 40px;
-}
-
-.quote-arrows.arrow-left:hover,
-.quote-arrows.arrow-right:hover {
-  opacity: 0.5;
-}
-
-.card-body {
-  color: #000000;
-  width: 70%;
-  float: left;
-  padding-left: 260px;
-  padding-top: 20px;
-}
-
-.quote-text {
-  font-size: 16px; width: 90%;
-  margin-top: 0;
-  margin-bottom: 0px;
-  line-height: 19px;
-  font-weight: 100;
-}
-
-.card-header {
-    font-size: 66px; color: #000000;
-    margin-top: 130px; float: left; padding-left: 260px;
-    margin-bottom: 50px; font-family: 'Unbounded', cursive;
-    line-height: 19px;
-    font-weight: 600;
-  }
-
-  .card-header2 {
-    font-size: 30px; color: #2b6ebb;
-    margin-top:60px; float: left; padding-left: 260px;
-    margin-bottom: 50px; font-family: 'Unbounded', cursive;
-    line-height: 40px;
-    font-weight: 100;
-  }
-
-.font-change {
-  font-family: 'Palanquin Dark', sans-serif;
-}
-
-.quote-author {
-  font-size: 10px;
-  text-transform: uppercase;
-  font-weight: 600;
-}
-
-.card-social {
-  width: 12%;
-  float: right;
-  padding-top: 20px;
-}
-
-@-webkit-keyframes pulse {
-  0% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-  50% {
-    -webkit-transform: scale(1.7);
-    transform: scale(1.7);
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-}
-
-@-moz-keyframes pulse {
-  0% {
-    -moz-transform: scale(1);
-    transform: scale(1);
-  }
-  50% {
-    -moz-transform: scale(1.7);
-    transform: scale(1.7);
-  }
-  100% {
-    -moz-transform: scale(1);
-    transform: scale(1);
-  }
-}
+    .para1 {
+      background-color: #ffffff; color: blue; font-size: 55px; float: left;
+      font-family:'Familjen Grotesk' ; padding-left: 30%; padding-right: 30%;
+      padding-bottom: 0px; padding-top: 10px; width: 100%;
+     }
+     @media screen and (max-width: 700px) {
+      .para1 {
+         font-size: 25.5px; float: left; padding-left: 60px;padding-right: 62px;
+    }}
+  
+   .para2 {
+    background-color: #ffffff; padding-left: 30%; font-size: 35px;
+    color: rgb(160, 160, 160); padding-bottom: 80px;width: 100%; float: left;
+  font-family:'Source Code Pro', monospace ; padding-right: 30%; padding-top: 31px;
+   }
+  
+   @media screen and (max-width: 700px) {
+    .para2 {
+      width: 100%; font-size: 20px; padding-top: 25px; padding-bottom: 35px;
+    }}
+  
+    .para3 {
+      background-color: #ffffff; color: blue; font-size: 55px; float: left;
+      font-family:'Familjen Grotesk' ; padding-left: 30%; padding-right: 30%;
+      padding-bottom: 60px; padding-top: 0px; width: 100%;
+     }
+     @media screen and (max-width: 700px) {
+      .para3 {
+         font-size: 40px; float: left; padding-left: 40px;padding-right: 40px;
+    }}
+  
+    .para4 {
+      background-color: #ffffff; color: blue; font-size: 55px; float: left;
+      font-family:'Familjen Grotesk' ; padding-left: 30%; padding-right: 30%;
+      padding-bottom: 60px; padding-top: 0px; width: 100%;
+     }
+     @media screen and (max-width: 700px) {
+      .para4 {
+         font-size: 40px; float: left; padding-left: 40px;padding-right: 40px;
+    }}
+  
+  
