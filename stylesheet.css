@@ -17,3 +17,23 @@ div {
   font-size: 100%;
   font-family: 'Open Sans', sans-serif;
 }
+body {
+    background-color: #e5ecef;
+    background-image: linear-gradient( to top right, #bbc2c5, #b8bfc2, #e5ecef 60%);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  main{
+    min-height: 100%;
+    margin-bottom: -60px; 
+  }
+  
+  main:after{
+    content: "";
+    display: block;
+  }
