@@ -122,7 +122,7 @@ body {
 }
 
 .card-body {
-  color: #feffff;
+  color: #000000;
   width: 63%;
   float: left;
   padding-left: 60px;
@@ -137,11 +137,10 @@ body {
   font-weight: 100;
 }
 
-
 .card-header {
     font-size: 66px; color: #000000;
-    margin-top: 0;
-    margin-bottom: 30px;
+    margin-top: 60px; float: left; padding-left: 55px;
+    margin-bottom: 50px;
     line-height: 19px;
     font-weight: 600;
   }
@@ -169,23 +168,6 @@ body {
   padding: 7px 13px;
   color: #fff;
   cursor: pointer;
-}
-
-.card-social button.heart-num:hover .like {
-  color: #F2495A;
-  transition: ease-in 0.5s;
-}
-
-.card-social button.heart-num:focus {
-  outline: 0;
-}
-
-.card-social button.heart-num:active .like {
-  color: #F2495A;
-  -webkit-animation-name: pulse;
-  -moz-animation-name: pulse;
-  -webkit-animation-duration: 0.5s;
-  -moz-animation-duration: 0.5s;
 }
 
 @-webkit-keyframes pulse {
