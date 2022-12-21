@@ -62,4 +62,37 @@ body {
     background-size: cover;
     background-position: center;
   }
+
+  .layer {
+    background-color: rgba(39, 40, 51, 0.87);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25%;
+    height: 100%;
+  }
+  
+  .quote-sign {
+    font-family: 'Palanquin Dark', sans-serif;
+    font-size: 120px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    margin-top: -75px;
+    color: rgba(0, 0, 0, 0.1);
+  }
+  
+  .quote-arrows {
+    position: absolute;
+    bottom: 25px;
+    left: 50px;
+    content: "";
+    display: block;
+    height: 14px;
+    width: 14px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
   
