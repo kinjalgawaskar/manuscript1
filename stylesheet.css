@@ -63,21 +63,10 @@ body {
 
   .layer {
     position: absolute;
-    top: 0; background-image: url(https://raw.githubusercontent.com/kinjalgawaskar/manuscript1/3ada8c8231e4615288c0b2fde3585e4b7c744b71/konstantin.png);
+    top: 0; background-image: url(https://raw.githubusercontent.com/kinjalgawaskar/manuscript1/197414549c485143eef48c5f430d36944c3a3b26/konstantin.png);
     left: 0; 
-    width: 45%;
+    width: 35%;
     height: 100%;
-  }
-  
-  .quote-sign {
-    font-family: 'Palanquin Dark', sans-serif;
-    font-size: 120px;
-    -webkit-transform: rotate(180deg);
-    -moz-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    -o-transform: rotate(180deg);
-    margin-top: -75px;
-    color: rgba(0, 0, 0, 0.1);
   }
   
   .quote-arrows {
@@ -120,26 +109,34 @@ body {
 
 .card-body {
   color: #000000;
-  width: 63%;
+  width: 70%;
   float: left;
-  padding-left: 60px;
-  padding-top: 10px;
+  padding-left: 260px;
+  padding-top: 20px;
 }
 
 .quote-text {
-  font-size: 16px; width: 70%;
+  font-size: 16px; width: 90%;
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   line-height: 19px;
   font-weight: 100;
 }
 
 .card-header {
     font-size: 66px; color: #000000;
-    margin-top: 130px; float: left; padding-left: 55px;
+    margin-top: 130px; float: left; padding-left: 260px;
     margin-bottom: 50px; font-family: 'Unbounded', cursive;
     line-height: 19px;
     font-weight: 600;
+  }
+
+  .card-header2 {
+    font-size: 30px; color: #2b6ebb;
+    margin-top:60px; float: left; padding-left: 260px;
+    margin-bottom: 50px; font-family: 'Unbounded', cursive;
+    line-height: 40px;
+    font-weight: 100;
   }
 
 .font-change {
@@ -187,19 +184,3 @@ body {
     transform: scale(1);
   }
 }
-
-.sidebar-title {
-    width: 100%; float: right;
-    font-size: 25px;padding-left: 900px;
-    writing-mode: vertical-lr;
-    text-orientation: mixed;
-    white-space: nowrap;
-    color: rgb(192, 192, 192);
-    overflow: hidden;
-    margin-block: auto;
-    font-family: 'Unbounded', cursive;
-  }
-
-  .konstantin{
-    float: left;
-  }
