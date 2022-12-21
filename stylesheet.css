@@ -136,4 +136,86 @@ body {
   line-height: 19px;
   font-weight: 100;
 }
+
+
+.card-header {
+    font-size: 66px; color: #000000;
+    margin-top: 0;
+    margin-bottom: 30px;
+    line-height: 19px;
+    font-weight: 600;
+  }
+
+.font-change {
+  font-family: 'Palanquin Dark', sans-serif;
+}
+
+.quote-author {
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.card-social {
+  width: 12%;
+  float: right;
+  padding-top: 20px;
+}
+
+.card-social button.heart-num {
+  background: rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 15px;
+  padding: 7px 13px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.card-social button.heart-num:hover .like {
+  color: #F2495A;
+  transition: ease-in 0.5s;
+}
+
+.card-social button.heart-num:focus {
+  outline: 0;
+}
+
+.card-social button.heart-num:active .like {
+  color: #F2495A;
+  -webkit-animation-name: pulse;
+  -moz-animation-name: pulse;
+  -webkit-animation-duration: 0.5s;
+  -moz-animation-duration: 0.5s;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.7);
+    transform: scale(1.7);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@-moz-keyframes pulse {
+  0% {
+    -moz-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -moz-transform: scale(1.7);
+    transform: scale(1.7);
+  }
+  100% {
+    -moz-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
   
