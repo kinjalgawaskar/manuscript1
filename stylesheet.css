@@ -94,5 +94,46 @@ body {
     cursor: pointer;
     transition: 0.5s;
   }
-  
+
+  quote-arrows.arrow-left,
+.quote-arrows.arrow-left:visited {
+  border-bottom: 2px solid #fff;
+  border-left: 2px solid #fff;
+  float: left;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.quote-arrows.arrow-right,
+.quote-arrows.arrow-right:visited {
+  border-bottom: 2px solid #fff;
+  border-left: 2px solid #fff;
+  float: right;
+  -webkit-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+  margin-left: 40px;
+}
+
+.quote-arrows.arrow-left:hover,
+.quote-arrows.arrow-right:hover {
+  opacity: 0.5;
+}
+
+.card-body {
+  color: #feffff;
+  width: 63%;
+  float: left;
+  padding-left: 60px;
+  padding-top: 10px;
+}
+
+.quote-text {
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  line-height: 19px;
+  font-weight: 100;
+}
   
